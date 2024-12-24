@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personagem Chaves</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Qual personagem do Chaves?</h1>
+    </header>
+
+    <section>
+        <div>
+            <p>Preencha as informações abaixo e veja, de acordo com a sua idade e seu gênero, qual personagem do Chaves você seria.</p>
+        </div>
+
+        <div>
+            Digite seu ano de Nascimento:
+            <input type="number" name="ano" id="ano" min="4">
+        </div>
+
+        <div>
+            Sexo:
+            <input type="radio" name="genero" id="feminino" checked>            
+            <label for="feminino">Feminino</label>
+            <input type="radio" name="genero" id="masculino">
+            <label for="masculino">Masculino</label>
+        </div>
+
+        <div id="botao" >
+            <input type="button" value="Verificar" onclick="verificar()">
+        </div>
+
+        <div id="resultado">
+            <p>Aqui está seu resultado....</p>
+            <img id="foto" src="imagens/logo.png" alt="">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; JéssicaFuentes</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

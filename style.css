@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+html, body{
+    font: normal 14px Poppins;
+    background-image: linear-gradient(#023b02, #068d06);
+    height: 100%;
+    margin: 0px;
+    overflow: hidden;
+}
+
+header h1{
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.74);
+}
+
+section{
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.555);
+}
+
+div{
+    padding: 5px;
+}
+
+#botao{
+    padding-top: 10px;
+}
+
+#botao input{
+    background-color: #0a680a;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 4px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.432);
+}
+
+#botao input:hover{
+    background-color: #024F02;
+    box-shadow: 0 0 10px 2px #068d06;
+    border: 1px solid white;
+}
+
+img{
+    display: block;
+    margin: auto;
+    width: 220px;
+    height: 150px;
+    border-radius: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#resultado{
+    font-size: 15px;
+    color: #0b770b;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.336);
+}
+
+#resultado p{
+    margin-top: 8px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.678);
+}
+
+@media (max-width: 768px) {
+    section{
+        width: 90%;
+        margin: auto;
+    }
+    
+    header h1{
+        font-size: 25px;
+    }
+}
